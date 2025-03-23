@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="first-container">
+    <header>
+        <div class="header_logo">
+            <img src="movies.png">
+            <form id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+            </form>
+        </div>
+    </header>
+
+    <div class="preview">
+        <div class="left">
+            <h1>Find movies</h1>            
+            <h2>TV shows and more</h2>
+            <p>Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <button>Watch Tutorial</button>
+        </div>
+    </div>
+   </div> 
+   
+   <div class="second-container">
+    <div id="popular-movies" class="movie-category">
+        <h2>Popular Movies</h2>
+        <div class="movies-line" id="popular-line"></div>
+    </div>
+
+    <div id="comedy-movies" class="movie-category">
+        <h2>Comedy Movies</h2>
+        <div class="movies-line" id="comedy-line"></div>
+    </div>
+
+    <div id="romance-movies" class="movie-category">
+        <h2>Romantic Movies</h2>
+        <div class="movies-line" id="romance-line"></div>
+    </div>
+
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+    </div>
+   </div>
+   
+
+   <script src="script.js"></script>
+</body>
+</html>
